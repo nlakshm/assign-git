@@ -1,0 +1,31 @@
+1..gitignore tells git which files are (unecessary) it should ignore. Avoid committing files that aren’t useful to others such as compilation product, temporary file IDE’S # 
+Java netbeans  specific #
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+Reference :https://stackoverflow.com/questions/2586097/what-should-be-in-gitignore-file-for-a-netbeans-java-project
+
+2. When we merge a branch that is ahead of currently checked out branch. The branch is ahead of master at the point of merge 
+
+Ref : https://confluence.atlassian.com › bitbucket › git-fast-forwards-and-branch-...
+
+3.In every project, there are always multiple different contexts where work happens. Each feature, bugfix, experiment, or alternative of your product is actually a context of its own: it can be seen as its own "topic", clearly separated from other topics.
+This leaves you with an unlimited amount of different contexts.
+
+Ref quora.com/Why-do-we-need-branches-in-GIT
+
+4.You can have as many remotes as you want, but you can only have one remote named "origin". The remote called "origin" is not special in any way, except that it is the default remote created by Git when you clone an existing repository.
+
+Ref : https://stackoverflow.com/questions/11690709/can-a-project-have-multiple-origins
